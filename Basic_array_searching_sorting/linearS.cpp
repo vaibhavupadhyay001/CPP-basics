@@ -16,7 +16,7 @@ int main(){
 
     bool found=false;
     for(i=1;i<=n;i++){
-        if(arr[i]==key){
+        if(arr[i]=="key"){
         cout<<"Elements found at position:"<<i <<endl;
         found=true;
         break;
